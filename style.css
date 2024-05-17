@@ -281,3 +281,78 @@ hr{
   gap: 3%;
 }
 /* end of appartments section */
+
+/* start of sservices section */
+.banner{
+  width: 100%;
+  height: auto;
+  /* background: linear-gradient(rgba(0,0,0,.3),var(--tertiary-color)), url(./assets/2BedRoomSelfC.png); */
+  background: var(--tertiary-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  border-radius: 50px;
+  padding: 10px 0px 20px 0px;
+}
+.banner .title{
+  color: var(--primary-color);
+}
+.banner .title h1{
+  font-size: 4em;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.banner .title p{
+  color: var(--primary-color);
+  opacity: .8;
+}
+.banner-img-content{
+  display: flex;
+  align-items: center;
+  gap: 1.6em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.banner-img-container{
+margin-top: 4%;
+width: 18em;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+background: var(--primary-color);
+border: 1px solid var(--tertiary-color);
+}
+.banner-img-card{
+  width: 18em;
+  height: 14em;
+  border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.banner-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+.banner-info h1{
+font-size: 1.2em;
+color: var(--secondary-color);
+text-transform: capitalize;
+}
+.banner-info p{
+color: var(--text-color);
+text-align: center;
+}
+.banner-info span{
+  text-decoration: line-through;
+}
+/* End of services section */
