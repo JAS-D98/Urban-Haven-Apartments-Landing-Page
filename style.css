@@ -142,7 +142,7 @@ header button:hover{
 .title h1{
   color: var(--tertiary-color);
   text-transform: capitalize;
-  font-sizeem;
+  font-size:3em;
 }
 .title p{
   margin-top: 2%;
