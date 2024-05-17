@@ -32,6 +32,7 @@
   align-items: center;
   position: fixed;
   background: var(--secondary-color);
+  z-index: 2;
 }
 
 .hero header a{
@@ -57,7 +58,7 @@ header button{
   color: var(--primary-color); 
   padding: 15px 20px;
   margin-right: 4%;
-  border: 1px solid #002244;
+  border: 1px solid var(--secondary-color);
   border-radius: 25px;
   font-weight: 400;
 }
@@ -122,7 +123,7 @@ header button:hover{
 /* start of call to action */
 .unique-el{
   width: 100%;
-  height: 100vh;
+  height:auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,6 +138,7 @@ header button:hover{
 .title h1{
   color: var(--tertiary-color);
   text-transform: capitalize;
+  font-size: 2em;
 }
 .title p{
   margin-top: 2%;
@@ -159,7 +161,6 @@ header button:hover{
   text-align: center;
   padding: 0px 10px;
   flex-wrap: wrap;
-  opacity: .9;
   transition: .7s;
   width: 19em;
   height: 22em;
@@ -167,7 +168,6 @@ header button:hover{
   border-radius: 20px;
 }
 .uni-card:hover{
-  opacity: 1;
   scale: 1.1;
 }
 .active{
@@ -190,3 +190,33 @@ header button:hover{
   border-radius: 50%;
   padding: 10px;
 }
+
+ button{
+  cursor: pointer;
+  width: 15em;
+  background: var(--tertiary-color);
+  color: var(--primary-color); 
+  padding: 15px 20px;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 25px;
+  font-weight: 400;
+}
+ button:hover{
+  background: var(--secondary-color);
+  color: var(--primary-color); 
+  padding: 15px 20px;
+  margin-right: 2%;
+  border: 1px solid var(--primary-color);
+}
+
+/* start of about section */
+.about{
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 30px;
+  gap: 30px;
+  color: var(--text-color);
+}
+/* end of about section */
