@@ -142,7 +142,7 @@ header button:hover{
 .title h1{
   color: var(--tertiary-color);
   text-transform: capitalize;
-  font-size: 2em;
+  font-sizeem;
 }
 .title p{
   margin-top: 2%;
@@ -303,7 +303,7 @@ hr{
   color: var(--primary-color);
 }
 .banner .title h1{
-  font-size: 4em;
+  font-size: 3em;
   color: var(--primary-color);
   font-weight: bold;
 }
@@ -356,3 +356,11 @@ text-align: center;
   text-decoration: line-through;
 }
 /* End of services section */
+
+/* start of testimonial section */
+.testimonialCard{
+  width:30%;
+  height:30%;
+  background:#000;
+}
+/* end of testimonial section */
