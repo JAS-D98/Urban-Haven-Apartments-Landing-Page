@@ -522,3 +522,25 @@ form h1{
   color: var(--tertiary-color);
 }
 /* end of contact section */
+
+/* start of footer section */
+footer{
+  margin-top: 3%;
+  width: 100%;
+  height: 20vh;
+  background: var(--tertiary-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--primary-color);
+}
+footer h1{
+  color: var(--primary-color);
+  opacity: .7;
+}
+footer p{
+  color: var(--primary-color);
+  opacity: .4;
+}
+/* end of footer section */
