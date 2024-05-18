@@ -429,6 +429,96 @@ color: var(--primary-color);
 .message-container p{
   font-size: 2em;
   color: var(--primary-color);
-  opacity: .5;
+  opacity: .6;
 }
 /* end of dashboard banner section */
+
+/* start of contact section */
+.contact-box-container{
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+.contact-details-container{
+  margin-top: 4%;
+}
+.contact-box{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-img{
+  width: 30%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-info{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.contact-info h1{
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
+.contact-info p{
+  font-size: 1.4em;
+}
+.contact-info a{
+  font-size: 1.4em;
+  margin: 0px 10px;
+}
+.contact-info span{
+  font-size: 1.4em;
+}
+
+.contact-form{
+  width: 40%;
+  height: auto;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.form-input-container label{
+  text-transform: capitalize;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.form-input-container textarea , .form-input-container input{
+  width: 100%;
+  padding: 4px 0px 10px 0px;
+  overflow: hidden;
+  outline: none;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  font-size: 1.1em;
+}
+.form-input-container textarea::placeholder , .form-input-container input::placeholder{
+  font-size: 1.2em;
+  text-transform: capitalize;
+  opacity: .5;
+}
+form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+form h1{
+  text-transform: capitalize;
+  color: var(--tertiary-color);
+}
+/* end of contact section */
