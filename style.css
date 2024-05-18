@@ -401,7 +401,7 @@ color: var(--primary-color);
   margin-top: 3%;
   width: 100%;
   height: 50vh;
-  background: linear-gradient(rgba(0,0,0,.8),var(--secondary-color)), url(./assets/2BedRoomSelfC.png);
+  background: linear-gradient(rgba(0,0,0,.6),var(--secondary-color)), url(./assets/2BedRoomSelfC.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -428,5 +428,7 @@ color: var(--primary-color);
 }
 .message-container p{
   font-size: 2em;
+  color: var(--primary-color);
+  opacity: .5;
 }
 /* end of dashboard banner section */
