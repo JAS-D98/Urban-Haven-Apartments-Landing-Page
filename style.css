@@ -19,7 +19,7 @@
 
 .hero{
   width: 100%;
-  min-height: 100vh;
+  min-height:auto;
   background: var(--secondary-color);
   color: var(--primary-color);
   border-bottom-right-radius: 50px;
@@ -85,6 +85,12 @@ header button:hover{
   font-family: var(--primary-font);
   padding: 10px 20px;
   color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content-message{
+  width: 100%;
 }
 .content h1{
   margin-top: 8%;
@@ -102,6 +108,12 @@ header button:hover{
   font-weight: 300;
   font-style: italic;
 }
+.content a .small{
+  margin-top: 15%;
+}
+.content a{
+  text-decoration: none;
+}
 
 .hero-card{
   margin-top: 2%;
@@ -109,11 +121,12 @@ header button:hover{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1em;
 }
 
 .imgCard{
-  width: 40.7em;
-  height: 17.6em;
+  width: 40em;
+  height: 20em;
   border-radius: 20px;
   object-fit: cover;
   overflow: hidden;
@@ -138,6 +151,8 @@ header button:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px 30px;
+  text-align: center;
 }
 .title h1{
   color: var(--tertiary-color);
@@ -153,6 +168,7 @@ header button:hover{
 .unique-cards{
   margin-top: 5%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2em;
@@ -544,3 +560,160 @@ footer p{
   opacity: .4;
 }
 /* end of footer section */
+
+/* start of media query section */
+@media(max-width:1200px){
+  html{
+    font-size: 78%;
+  }
+}
+@media(max-width:1100px){
+  .imgCard{
+    width: 38em;
+    height: 15em;
+  }
+  .hero-card{
+    gap: 5px;
+  }
+}
+@media(max-width:1010px){
+  .imgCard{
+    width: 37em;
+    height: 15em;
+  }
+}
+@media(max-width:970px){
+  .imgCard{
+    width: 32em;
+    height: 15em;
+  }
+  .hero header a{
+    font-size: .8em;
+  }
+}
+@media(max-width:860px){
+  header button{
+    display: none;
+  }
+  .imgCard{
+    width: 30em;
+    height: 15em;
+  }
+}
+@media(max-width:800px){
+  .imgCard{
+    width: 100%;
+    height: 15em;
+  } 
+  .contact-info h1{
+    font-size: 1.2em;
+  }
+}
+@media(max-width:710px){
+  .content h1{
+    margin-top:10%;
+  }
+  .appartmentCard{
+    flex-direction: column-reverse;
+    gap: 3em;
+  }
+  .alternate{
+    flex-direction: column-reverse;
+  }
+  .appartmentImg{
+    width: 100%;
+  } 
+  .appartment-info{
+    width: 100%;
+  }
+  .appartment-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-container{
+    flex-direction: column;
+  }
+  .testimonialCard{
+    text-align: center;
+    width: 80%;
+  }
+  .testimonial-img{
+    width:15%;
+    height:10vh;
+  }
+  .contact-box-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .contact-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-form{
+    margin: auto;
+    width: 90%;
+  }
+  form h1{
+    text-align: center;
+  }
+  form button{
+    width: 100%;
+  }
+}
+@media(max-width:631px){
+  .appartmentCard{
+    flex-direction: column-reverse;
+    gap: 3em;
+  }
+  .alternate{
+    flex-direction: column-reverse;
+  }
+  .title h1{
+    font-size: 2em;
+  }
+  .hero header {
+    justify-content: space-evenly;
+  } 
+  .hero header a{
+    font-size: .6em;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .uni-card{
+    width: 80%;
+  }
+  .banner-img-content{
+    flex-direction: column;
+  }
+  .banner-img-container{
+    height: auto;
+  }
+  .banner-img-container,.banner-img-card{
+    width: 80%;
+  }
+}
+@media(max-width:610px){
+  .message-container h1{
+    font-size: 2em;
+    color: var(--primary-color);
+  }
+  .message-container p{
+    font-size: 1.2em;
+  }
+  .banner-img-card{
+    width: 100%;
+    height: 40vh;
+  }
+  header{
+    flex-direction: column;
+  }
+}
+/* end of media query section */
