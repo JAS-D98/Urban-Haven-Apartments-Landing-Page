@@ -707,6 +707,7 @@ form h1{
   }
   .hero header img{
     display: block;
+    cursor: pointer;
   }
   nav ul{
     display: none;
