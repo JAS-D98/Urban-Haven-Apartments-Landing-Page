@@ -9,17 +9,18 @@
   </head>
   <body>
     <!-- start of hero section -->
-   <header>
+<Section id="Home">
+  <header>
     <div class="hero">
       <header>
-        <a href=""><h1>Urban Haven</h1></a>
+        <a href="/"><h1>Urban Haven</h1></a>
           <nav>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Our Appartments</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About Us</a></li>
+              <li><a href="#Apartments">Our Appartments</a></li>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#Contacts">Contact Us</a></li>
             </ul>
             <a href=""><button>Book an Appartment</button></a>
             <img src="./assets/menu.png" alt="menu icon" width="30">
@@ -42,6 +43,7 @@
       </div>
     </div>
    </header>
+</Section>
    <!-- end of hero section -->
 
    <main>
@@ -78,7 +80,7 @@
      <!-- end of call to action section-->
 
    <!-- About Us section -->
-   <div class="about">
+   <div class="about" id="About">
     <div class="title">
       <h1>Want to Know More About Us?</h1>
     </div>
@@ -88,208 +90,212 @@
   <!-- End of About Us section -->
      
   <!--Start of Our Appartments Section -->
-    <div class="appartments">
-      <div class="title">
-        <h1>Find Available Spaces Customized Just For You</h1>
-        <p>Where vision meets reality-Captivating Architectural Creations <br> where spaces come alive with imagination and precision.</p>
+<Section id="Apartments">
+  <div class="appartments">
+    <div class="title">
+      <h1>Find Available Spaces Customized Just For You</h1>
+      <p>Where vision meets reality-Captivating Architectural Creations <br> where spaces come alive with imagination and precision.</p>
+    </div>
+    <div class="appartmentBox">
+      <div class="appartmentCard">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>1.</span>Single rooms (Kshs.3,500 per month.)</h1>
+            <p>Cozy and budget friendly rooms suitable for individuals.</p>
+            <a href=""><button>View More Apartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
+          </div>
+        </div>
+        <div class="appartmentImg">
+          <img src="./assets/single.png" alt="image of a single room">
+        </div>
       </div>
-      <div class="appartmentBox">
-        <div class="appartmentCard">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>1.</span>Single rooms (Kshs.3,500 per month.)</h1>
-              <p>Cozy and budget friendly rooms suitable for individuals.</p>
-              <a href=""><button>View More Apartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/single.png" alt="image of a single room">
+
+      <hr>
+
+      <div class="appartmentCard alternate">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>2.</span>BedSitters (Kshs.5,500 per month.)</h1>
+            <p>Cozy and comfortable bedsitters with a kitchen area and sink suitable for individuals and couples.</p>
+            <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
           </div>
         </div>
+        <div class="appartmentImg">
+          <img src="./assets/Bedsitters.png" alt="image of a Bedsitter">
+        </div>
+      </div>
 
-        <hr>
+      <hr>
 
-        <div class="appartmentCard alternate">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>2.</span>BedSitters (Kshs.5,500 per month.)</h1>
-              <p>Cozy and comfortable bedsitters with a kitchen area and sink suitable for individuals and couples.</p>
-              <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/Bedsitters.png" alt="image of a Bedsitter">
+      <div class="appartmentCard">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>3.</span>Studio Apartments (Kshs.7,000 per month.)</h1>
+            <p>Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience.</p>
+            <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
           </div>
         </div>
+        <div class="appartmentImg">
+          <img src="./assets/studioapart.png" alt="image of a Studio Apartment">
+        </div>
+      </div>
 
-        <hr>
+      <hr>
 
-        <div class="appartmentCard">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>3.</span>Studio Apartments (Kshs.7,000 per month.)</h1>
-              <p>Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience.</p>
-              <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/studioapart.png" alt="image of a Studio Apartment">
+      <div class="appartmentCard alternate">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>4.</span>One Bedroom (Kshs.8,500 per month.)</h1>
+            <p>Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space.</p>
+            <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
           </div>
         </div>
+        <div class="appartmentImg">
+          <img src="./assets/OneBedroom.png" alt="image of a One Bedroom">
+        </div>
+      </div>
 
-        <hr>
+      <hr>
 
-        <div class="appartmentCard alternate">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>4.</span>One Bedroom (Kshs.8,500 per month.)</h1>
-              <p>Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space.</p>
-              <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/OneBedroom.png" alt="image of a One Bedroom">
+      <div class="appartmentCard">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>5.</span>Two Bedroom (Kshs.10,000 per month.)</h1>
+            <p>Larger apartments with two separate bedrooms, suitable for small families or roommates.</p>
+            <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
           </div>
         </div>
+        <div class="appartmentImg">
+          <img src="./assets/TwoBedroom.png" alt="image of a Two Bedroom">
+        </div>
+      </div>
 
-        <hr>
+      <hr>
 
-        <div class="appartmentCard">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>5.</span>Two Bedroom (Kshs.10,000 per month.)</h1>
-              <p>Larger apartments with two separate bedrooms, suitable for small families or roommates.</p>
-              <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/TwoBedroom.png" alt="image of a Two Bedroom">
+      <div class="appartmentCard alternate">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>6.</span>One Bedroom Self-Contained Apartments (Kshs.15,000 per month.)</h1>
+            <p> Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience.</p>
+            <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
           </div>
         </div>
+        <div class="appartmentImg">
+          <img src="./assets/IBSelfContain.png" alt="image of a One Bedroom Self-Contained">
+        </div>
+      </div>
 
-        <hr>
+      <hr>
 
-        <div class="appartmentCard alternate">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>6.</span>One Bedroom Self-Contained Apartments (Kshs.15,000 per month.)</h1>
-              <p> Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience.</p>
-              <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/IBSelfContain.png" alt="image of a One Bedroom Self-Contained">
+      <div class="appartmentCard">
+        <div class="appartment-info">
+          <div class="appartment-title">
+            <h1><span>7.</span>Two Bedroom Self-Contained Apartments (Kshs.20,000 per month.)</h1>
+            <p>Townhouses with two bedrooms and private amenities, providing ample space and comfort for families or larger households.</p>
+            <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
           </div>
         </div>
-
-        <hr>
-
-        <div class="appartmentCard">
-          <div class="appartment-info">
-            <div class="appartment-title">
-              <h1><span>7.</span>Two Bedroom Self-Contained Apartments (Kshs.20,000 per month.)</h1>
-              <p>Townhouses with two bedrooms and private amenities, providing ample space and comfort for families or larger households.</p>
-              <a href=""><button>View More Appartments <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button></a>
-            </div>
-          </div>
-          <div class="appartmentImg">
-            <img src="./assets/2BedroomSelf.png" alt="image of a Two Bedroom Self-Contained">
-          </div>
+        <div class="appartmentImg">
+          <img src="./assets/2BedroomSelf.png" alt="image of a Two Bedroom Self-Contained">
         </div>
       </div>
     </div>
+  </div>
+</Section>
   <!-- End of Our Appartments Section-->
   
  <!-- start of services section -->
-  <div class="banner">
-    <div class="title">
-      <h1>Available amenities and services</h1>
-      <p>We use our expertise to help you create a space that is uniquely <br> your vision and lifestyle</p>
+  <Section id="Services">
+    <div class="banner">
+      <div class="title">
+        <h1>Available amenities and services</h1>
+        <p>We use our expertise to help you create a space that is uniquely <br> your vision and lifestyle</p>
+      </div>
+      <div class="banner-img-content">
+        
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/freewifi.png" alt="image of a Wifi logo" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Free WIFI</h1>
+            <p>Available for all except for those living in <span>single rooms</span>.</p>
+          </div>
+        </div>
+        
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/parkinglot.png" alt="image of a basement parking" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Free parking</h1>
+            <p>Available for all except for those living in <span>single rooms</span> and <span>bedsitters</span>.</p>
+          </div>
+        </div>
+  
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/laundry.png" alt="image of a washing machine" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>laundry</h1>
+            <p>On-site laundry @ Kshs.150 per basket.</p>
+          </div>
+        </div>
+  
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/gym.png" alt="image of a gym" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Free Gym</h1>
+            <p>Available for all except for those living in <span>single rooms</span> and <span>bedsitters</span>.</p>
+          </div>
+        </div>
+        
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/pool.png" alt="image of a swimming pool" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Swimming Pool</h1>
+            <p>Free for everyone</p>
+          </div>
+        </div>
+  
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/elevator.png" alt="image of an elevator" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Elevator access</h1>
+            <p>Free for everyone.</p>
+          </div>
+        </div>
+  
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/water.png" alt="image of water flowing from a tap" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Water access</h1>
+            <p>Free for everyone.</p>
+          </div>
+        </div>
+  
+        <div class="banner-img-container">
+          <div class="banner-img-card">
+            <img src="./assets/theatre.png" alt="image of a washing machine" width="100%" height="100%">
+          </div>
+          <div class="banner-info">
+            <h1>Community theatre</h1>
+            <p>Free for everyone.</p>
+          </div>
+        </div>
+  
+      </div>
     </div>
-    <div class="banner-img-content">
-      
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/freewifi.png" alt="image of a Wifi logo" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Free WIFI</h1>
-          <p>Available for all except for those living in <span>single rooms</span>.</p>
-        </div>
-      </div>
-      
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/parkinglot.png" alt="image of a basement parking" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Free parking</h1>
-          <p>Available for all except for those living in <span>single rooms</span> and <span>bedsitters</span>.</p>
-        </div>
-      </div>
-
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/laundry.png" alt="image of a washing machine" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>laundry</h1>
-          <p>On-site laundry @ Kshs.150 per basket.</p>
-        </div>
-      </div>
-
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/gym.png" alt="image of a gym" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Free Gym</h1>
-          <p>Available for all except for those living in <span>single rooms</span> and <span>bedsitters</span>.</p>
-        </div>
-      </div>
-      
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/pool.png" alt="image of a swimming pool" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Swimming Pool</h1>
-          <p>Free for everyone</p>
-        </div>
-      </div>
-
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/elevator.png" alt="image of an elevator" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Elevator access</h1>
-          <p>Free for everyone.</p>
-        </div>
-      </div>
-
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/water.png" alt="image of water flowing from a tap" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Water access</h1>
-          <p>Free for everyone.</p>
-        </div>
-      </div>
-
-      <div class="banner-img-container">
-        <div class="banner-img-card">
-          <img src="./assets/theatre.png" alt="image of a washing machine" width="100%" height="100%">
-        </div>
-        <div class="banner-info">
-          <h1>Community theatre</h1>
-          <p>Free for everyone.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
+  </Section>
 <!-- end of services section -->
 
 <!-- start of testimonial section -->
@@ -353,57 +359,59 @@
 <!-- end of dashboard banner section -->
 
 <!-- start of contact section -->
-<div class="contact">
-  <div class="title">
-    <h1>Get in Touch with us</h1>
-    <p>We would like to hear from you. Call us or message us</p>
-  </div>  
-  <div class="contact-details-container">  
-  <div class="contact-box-container">
-    <div class="contact-box">
-      <div class="contact-img">
-        <img src="./assets/Contact.png" alt="" width="100%">
+<Section id="Contacts">
+  <div class="contact">
+    <div class="title">
+      <h1>Get in Touch with us</h1>
+      <p>We would like to hear from you. Call us or message us</p>
+    </div>  
+    <div class="contact-details-container">  
+    <div class="contact-box-container">
+      <div class="contact-box">
+        <div class="contact-img">
+          <img src="./assets/Contact.png" alt="" width="100%">
+        </div>
+         <h1>How to find us</h1>
+        <div class="contact-info">
+          <h1>Phone:</h1>
+          <p>+254718764327</p>
+        </div>
+        <div class="contact-info">
+          <h1>Gmail:</h1>
+          <p>urhaven@apartments.com</p>
+        </div>
+        <div class="contact-info">
+          <h1>Social Media:</h1>
+          <a href="">Facebook</a> <span>&amp;</span>
+          <a href="">Instagram</a>
+        </div>
       </div>
-       <h1>How to find us</h1>
-      <div class="contact-info">
-        <h1>Phone:</h1>
-        <p>+254718764327</p>
-      </div>
-      <div class="contact-info">
-        <h1>Gmail:</h1>
-        <p>urhaven@apartments.com</p>
-      </div>
-      <div class="contact-info">
-        <h1>Social Media:</h1>
-        <a href="">Facebook</a> <span>&amp;</span>
-        <a href="">Instagram</a>
+      <div class="contact-form">
+        <form action="">
+          <h1>Send us a message here</h1>
+          <div class="form-input-container">
+            <label for="firstName">first name:</label>
+            <input type="text" id="firstName" placeholder="enter your first name here">
+          </div>
+          <div class="form-input-container">
+            <label for="lastName">last name:</label>
+            <input type="text" id="lastName" placeholder="enter your last name here">
+          </div>
+          <div class="form-input-container">
+            <label for="email">email address:</label>
+            <input type="email" id="email" placeholder="enter your email address here">
+          </div>
+          <div class="form-input-container">
+            <label for="message">message</label>
+            <textarea name="" id="message" placeholder="type your message here"></textarea>
+          </div>
+          <button type="submit">Send Message <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button>
+        </form>
       </div>
     </div>
-    <div class="contact-form">
-      <form action="">
-        <h1>Send us a message here</h1>
-        <div class="form-input-container">
-          <label for="firstName">first name:</label>
-          <input type="text" id="firstName" placeholder="enter your first name here">
-        </div>
-        <div class="form-input-container">
-          <label for="lastName">last name:</label>
-          <input type="text" id="lastName" placeholder="enter your last name here">
-        </div>
-        <div class="form-input-container">
-          <label for="email">email address:</label>
-          <input type="email" id="email" placeholder="enter your email address here">
-        </div>
-        <div class="form-input-container">
-          <label for="message">message</label>
-          <textarea name="" id="message" placeholder="type your message here"></textarea>
-        </div>
-        <button type="submit">Send Message <img src="./assets/location-arrow-solid.svg" alt="arrow icon" width="15px"></button>
-      </form>
     </div>
   </div>
-  </div>
-</div>
+</Section>
 <!-- end of contact section -->
    </main>
 <!-- start of footer section -->
