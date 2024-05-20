@@ -378,6 +378,11 @@ border: 1px solid var(--tertiary-color);
   object-fit: cover;
   overflow: hidden;
 }
+.banner-img-card img:hover{
+  scale: 1.1;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
 .banner-info{
   display: flex;
   flex-direction: column;
