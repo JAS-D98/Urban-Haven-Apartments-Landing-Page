@@ -26,7 +26,7 @@ html{
 
 .hero{
   width: 100%;
-  min-height:auto;
+  min-height:100vh;
   background: var(--secondary-color);
   color: var(--primary-color);
   border-bottom-right-radius: 50px;
