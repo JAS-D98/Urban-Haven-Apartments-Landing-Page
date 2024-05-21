@@ -26,7 +26,7 @@ html{
 
 .hero{
   width: 100%;
-  min-height:100vh;
+  height:auto;
   background: var(--secondary-color);
   color: var(--primary-color);
   border-bottom-right-radius: 50px;
@@ -717,6 +717,9 @@ form h1{
   }
 }
 @media(max-width:631px){
+  .hero{
+    min-height: 100vh;
+  }
   .hero-card .second{
     display: block;
     }
