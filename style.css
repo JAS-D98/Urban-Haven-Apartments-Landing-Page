@@ -452,6 +452,9 @@ color: var(--primary-color);
   overflow: hidden;
   border-radius: 50%;
 }
+.testimonial-img img{
+  width: 100%;
+}
 .testimonial-content{
   margin-top: 3%;
 }
