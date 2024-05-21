@@ -147,6 +147,7 @@ header button:hover{
 .hero-card{
   margin-top: 2%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -154,11 +155,14 @@ header button:hover{
 }
 
 .imgCard{
-  width: 40em;
-  height: 40em;
+  width: 80%;
+  height: 20em;
   border-radius: 20px;
   object-fit: cover;
   overflow: hidden;
+}
+.hero-card .second{
+display: none;
 }
 .imgCard img{
   width: 100%;
@@ -704,6 +708,9 @@ form h1{
   }
 }
 @media(max-width:631px){
+  .hero-card .second{
+    display: block;
+    }
   .appartmentCard{
     flex-direction: column-reverse;
     gap: 3em;
