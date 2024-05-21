@@ -717,9 +717,6 @@ form h1{
   }
 }
 @media(max-width:631px){
-  .hero header a h1{
-    font-size: 3em;
-  }
   .hero-card .second{
     display: block;
     }
@@ -732,9 +729,6 @@ form h1{
   }
   .title h1{
     font-size: 2em;
-  }
-  .hero header a{
-    font-size: .6em;
   }
   .hero header img{
     display: block;
