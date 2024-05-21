@@ -446,8 +446,8 @@ margin-top: 1%;
 color: var(--primary-color);
 }
 .testimonial-img{
-  width:20%;
-  height:20vh;
+  width: 4em;
+  height: 4em;
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
@@ -690,10 +690,6 @@ form h1{
   .testimonialCard{
     text-align: center;
     width: 80%;
-  }
-  .testimonial-img{
-    width:20%;
-    height:20vh;
   }
   .contact-box-container{
     flex-direction: column;
