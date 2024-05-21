@@ -150,7 +150,7 @@ header button:hover{
 
 .imgCard{
   width: 40em;
-  height: 20em;
+  height: 40em;
   border-radius: 20px;
   object-fit: cover;
   overflow: hidden;
@@ -432,8 +432,7 @@ color: var(--primary-color);
   height:10vh;
   object-fit: cover;
   overflow: hidden;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-radius: 50%;
 }
 .testimonial-content{
   margin-top: 3%;
