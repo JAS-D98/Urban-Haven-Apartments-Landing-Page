@@ -151,7 +151,7 @@ header button:hover{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 2%;
 }
 
 .imgCard{
