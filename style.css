@@ -165,9 +165,14 @@ header button:hover{
 display: none;
 }
 .imgCard img{
+  cursor: pointer;
+  opacity: .8;
   width: 100%;
+  transition: 1s ease-in-out;
 }
-
+.imgCard img:hover{
+  scale: 1.05;
+}
 /* End of hero section */
 
 /* start of call to action */
@@ -309,8 +314,10 @@ hr{
   border-radius: 25px;
   cursor: pointer;
 }
+.appartmentImg img{
+  transition: .5s ease-in-out;
+}
 .appartmentImg img:hover{
-  transition: .8s ease;
   scale: 1.1;
 }
 .appartment-info{
@@ -387,9 +394,11 @@ border: 1px solid var(--tertiary-color);
   object-fit: cover;
   overflow: hidden;
 }
+.banner-img-card img{
+  transition: .5s ease-in-out;
+}
 .banner-img-card img:hover{
   scale: 1.1;
-  transition: .3s ease-in-out;
   cursor: pointer;
 }
 .banner-info{
