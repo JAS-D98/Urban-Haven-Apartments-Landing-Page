@@ -692,8 +692,8 @@ form h1{
     width: 80%;
   }
   .testimonial-img{
-    width:15%;
-    height:10vh;
+    width:20%;
+    height:20vh;
   }
   .contact-box-container{
     flex-direction: column;
