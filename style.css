@@ -20,8 +20,7 @@ html{
 
 ::-webkit-scrollbar{width: 15px;}
 ::-webkit-scrollbar-track{background:var(--secondary-color);}
-::-webkit-scrollbar-thumb{background:linear-gradient(Transparent ,var(--primary-color), var(--tertiary-color));border-radius: 10px;height: 20vh;}
-
+::-webkit-scrollbar-thumb{background:linear-gradient(Transparent ,var(--primary-color), var(--tertiary-color));border-radius: 10px;height: 20vh;cursor: pointer;}
 /* Start of hero section */
 
 .hero{
