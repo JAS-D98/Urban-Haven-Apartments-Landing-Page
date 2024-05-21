@@ -447,7 +447,7 @@ color: var(--primary-color);
 }
 .testimonial-img{
   width:20%;
-  height:10vh;
+  height:20vh;
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
