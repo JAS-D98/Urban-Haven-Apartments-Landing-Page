@@ -722,9 +722,18 @@ form h1{
   .hero-card .second{
     display: block;
     }
+  .appartmentBox{
+    width: 90%;
+  }
   .appartmentCard{
     flex-direction: column-reverse;
     gap: 3em;
+  }
+  .appartmentImg{
+    width: 100%;
+  }
+  .appartment-info{
+    width: 100%;
   }
   .alternate{
     flex-direction: column-reverse;
