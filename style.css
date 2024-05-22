@@ -732,8 +732,15 @@ form h1{
   .appartmentImg{
     width: 100%;
   }
+  .appartment-title h1{
+    font-size: 1.2em;
+  }
+  .appartment-title span{
+    display: none;
+  }
   .appartment-info{
     width: 100%;
+    text-align: center;
   }
   .alternate{
     flex-direction: column-reverse;
@@ -797,9 +804,6 @@ form h1{
   .banner .title h1{
     font-size: 2em;
   }
-  .appartment-title h1{
-    font-size: 2em;
-  }
 }
 @media(max-width:380px){
   .content h1{
@@ -824,9 +828,6 @@ form h1{
     margin: 0px;
   } 
   .banner .title h1{
-    font-size: 1.2em;
-  }
-  .appartment-title h1{
     font-size: 1.2em;
   }
 }
